@@ -13,29 +13,35 @@ export function Header() {
           <Logo />
         </Link>
         <nav className="flex items-center gap-6">
-          {/* Plain #hash anchors only work while already on the home page —
-              from /legal-notice or /privacy-policy they just rewrite the
-              URL hash with nothing to scroll to. Routing through "/" first
-              (next-intl's Link, so it stays on the current locale) fixes
-              that and still scrolls smoothly when already home. */}
-          <Link
-            href={{ pathname: "/", hash: "projects" }}
-            className="text-sm font-medium text-foreground hover:text-primary"
-          >
-            {t("projects")}
-          </Link>
-          <Link
-            href={{ pathname: "/", hash: "about" }}
-            className="text-sm font-medium text-foreground hover:text-primary"
-          >
-            {t("about")}
-          </Link>
-          <Link
-            href={{ pathname: "/", hash: "contact" }}
-            className="text-sm font-medium text-foreground hover:text-primary"
-          >
-            {t("contact")}
-          </Link>
+          {/* Hidden below md: at narrower widths there's no room next to the
+              wordmark and they start overlapping it, and this is a one-page
+              site — scrolling still works without the shortcut. Logo and
+              locale switcher stay visible. */}
+          <div className="hidden items-center gap-6 md:flex">
+            {/* Plain #hash anchors only work while already on the home page —
+                from /legal-notice or /privacy-policy they just rewrite the
+                URL hash with nothing to scroll to. Routing through "/" first
+                (next-intl's Link, so it stays on the current locale) fixes
+                that and still scrolls smoothly when already home. */}
+            <Link
+              href={{ pathname: "/", hash: "projects" }}
+              className="text-sm font-medium text-foreground hover:text-primary"
+            >
+              {t("projects")}
+            </Link>
+            <Link
+              href={{ pathname: "/", hash: "about" }}
+              className="text-sm font-medium text-foreground hover:text-primary"
+            >
+              {t("about")}
+            </Link>
+            <Link
+              href={{ pathname: "/", hash: "contact" }}
+              className="text-sm font-medium text-foreground hover:text-primary"
+            >
+              {t("contact")}
+            </Link>
+          </div>
           <LocaleSwitcher />
         </nav>
       </div>

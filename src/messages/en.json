@@ -1,0 +1,104 @@
+{
+  "meta": {
+    "title": "Rentatoptech — Software studio building SaaS products",
+    "description": "Rentatoptech, S.L. is a Spanish software studio building SaaS products, from vacation rental tools to fintech invoicing.",
+    "ogAlt": "Rentatoptech"
+  },
+  "nav": {
+    "projects": "Projects",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "eyebrow": "Rentatoptech, S.L.",
+    "title": "A software studio building SaaS products",
+    "subtitle": "We design, build and operate software products end to end — from vacation rental management to fintech invoicing. Based in Madrid, building for the world.",
+    "cta": "See our projects"
+  },
+  "about": {
+    "title": "About Rentatoptech",
+    "body": "Rentatoptech, S.L. is a software company incorporated in Spain. We build and operate our own SaaS products rather than client work — each one solves a real, specific problem we understand deeply, from the plumbing to the pricing page. Our current focus sits mostly in the vacation rental space, plus a fintech product for automated invoicing."
+  },
+  "projects": {
+    "title": "Our projects",
+    "subtitle": "Live products, built and operated by our team.",
+    "visit": "Visit site",
+    "category": {
+      "rentals": "Vacation rentals",
+      "fintech": "Fintech / Invoicing"
+    },
+    "market": {
+      "spain": "Spain",
+      "international": "International"
+    },
+    "items": {
+      "amplistay": "Automated direct bookings, late check-outs and stay extensions for vacation rental hosts — synced with iCal, paid via Stripe.",
+      "rentalotop": "Marketplace of verified service providers for vacation rentals: cleaning, linen, laundry, check-in and maintenance, with free quotes.",
+      "rentalSites": "Custom booking websites for vacation rental and rural accommodation businesses.",
+      "factulink": "Automated Stripe-to-Holded invoicing bridge, built for Spanish tax compliance."
+    }
+  },
+  "contact": {
+    "title": "Get in touch",
+    "subtitle": "Questions about our products, partnerships, or anything else — we read every message.",
+    "email": "Email",
+    "whatsapp": "WhatsApp"
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "legalNotice": "Legal notice",
+    "privacyPolicy": "Privacy policy"
+  },
+  "legalNotice": {
+    "title": "Legal notice",
+    "lastUpdated": "Last updated",
+    "sections": {
+      "identification": {
+        "title": "1. Identification",
+        "body": "In compliance with Article 10 of Spanish Law 34/2002 on Information Society Services and Electronic Commerce (LSSI-CE), the following information is provided:"
+      },
+      "purpose": {
+        "title": "2. Purpose",
+        "body": "This website provides information about Rentatoptech, S.L. and the software products it builds and operates. It does not process payments or collect data beyond what is described in our Privacy Policy."
+      },
+      "ip": {
+        "title": "3. Intellectual property",
+        "body": "The content of this website — text, design, logos and source code — is the property of Rentatoptech, S.L. or is used under licence, and is protected by intellectual property law."
+      },
+      "liability": {
+        "title": "4. Liability",
+        "body": "Rentatoptech, S.L. is not responsible for the content of external sites linked from this website, including the products listed in our Projects section, each of which has its own terms and policies."
+      },
+      "law": {
+        "title": "5. Applicable law",
+        "body": "These terms are governed by Spanish law. Any dispute will be submitted to the courts of Madrid, Spain, unless mandatory consumer law provides otherwise."
+      }
+    }
+  },
+  "privacyPolicy": {
+    "title": "Privacy policy",
+    "lastUpdated": "Last updated",
+    "sections": {
+      "controller": {
+        "title": "1. Data controller",
+        "body": "The data controller for this website is Rentatoptech, S.L., with the details listed in our Legal Notice."
+      },
+      "data": {
+        "title": "2. What data we collect",
+        "body": "This website does not use analytics, tracking cookies, or forms that collect personal data. If you contact us by email or WhatsApp, we process the personal data you voluntarily provide (name, contact details, and the content of your message) solely to respond to your enquiry."
+      },
+      "purpose": {
+        "title": "3. Purpose and legal basis",
+        "body": "We process this data based on your consent, given by contacting us, for the sole purpose of answering your message. We do not use it for any other purpose, and we do not share it with third parties except where required by law."
+      },
+      "retention": {
+        "title": "4. Retention",
+        "body": "We keep correspondence only for as long as needed to handle your enquiry and any follow-up, after which it is deleted."
+      },
+      "rights": {
+        "title": "5. Your rights",
+        "body": "You may exercise your rights of access, rectification, erasure, objection, restriction and portability by writing to"
+      }
+    }
+  }
+}

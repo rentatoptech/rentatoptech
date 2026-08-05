@@ -1,0 +1,104 @@
+{
+  "meta": {
+    "title": "Rentatoptech — Estudio de software creando productos SaaS",
+    "description": "Rentatoptech, S.L. es un estudio de software español que crea productos SaaS, desde herramientas para alquiler vacacional hasta facturación fintech.",
+    "ogAlt": "Rentatoptech"
+  },
+  "nav": {
+    "projects": "Proyectos",
+    "about": "Quiénes somos",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "eyebrow": "Rentatoptech, S.L.",
+    "title": "Un estudio de software que crea productos SaaS",
+    "subtitle": "Diseñamos, construimos y operamos software propio de principio a fin — desde la gestión de alquileres vacacionales hasta la facturación fintech. Con sede en Madrid, construyendo para el mundo.",
+    "cta": "Ver nuestros proyectos"
+  },
+  "about": {
+    "title": "Sobre Rentatoptech",
+    "body": "Rentatoptech, S.L. es una empresa de software constituida en España. Construimos y operamos productos SaaS propios en lugar de trabajar por encargo — cada uno resuelve un problema real y concreto que conocemos a fondo, desde la infraestructura hasta la página de precios. Nuestro foco actual está sobre todo en el sector del alquiler vacacional, más un producto fintech de facturación automatizada."
+  },
+  "projects": {
+    "title": "Nuestros proyectos",
+    "subtitle": "Productos en producción, construidos y operados por nuestro equipo.",
+    "visit": "Visitar sitio",
+    "category": {
+      "rentals": "Alquiler vacacional",
+      "fintech": "Fintech / Facturación"
+    },
+    "market": {
+      "spain": "España",
+      "international": "Internacional"
+    },
+    "items": {
+      "amplistay": "Reservas directas automatizadas, late check-outs y ampliaciones de estancia para anfitriones de alquiler vacacional — sincronizado con iCal, cobrado con Stripe.",
+      "rentalotop": "Marketplace de proveedores verificados para pisos turísticos: limpieza, lavandería, ropa de cama, check-in y mantenimiento, con presupuesto gratis.",
+      "rentalSites": "Webs de reserva a medida para negocios de alojamiento vacacional y casas rurales.",
+      "factulink": "Puente de facturación automática Stripe → Holded, construido para cumplir la normativa fiscal española."
+    }
+  },
+  "contact": {
+    "title": "Contacta con nosotros",
+    "subtitle": "Preguntas sobre nuestros productos, colaboraciones o cualquier otra cosa — leemos todos los mensajes.",
+    "email": "Email",
+    "whatsapp": "WhatsApp"
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados.",
+    "legalNotice": "Aviso legal",
+    "privacyPolicy": "Política de privacidad"
+  },
+  "legalNotice": {
+    "title": "Aviso legal",
+    "lastUpdated": "Última actualización",
+    "sections": {
+      "identification": {
+        "title": "1. Identificación",
+        "body": "En cumplimiento del artículo 10 de la Ley 34/2002, de Servicios de la Sociedad de la Información y de Comercio Electrónico (LSSI-CE), se facilita la siguiente información:"
+      },
+      "purpose": {
+        "title": "2. Objeto",
+        "body": "Este sitio web ofrece información sobre Rentatoptech, S.L. y los productos de software que construye y opera. No procesa pagos ni recoge datos más allá de lo descrito en nuestra Política de Privacidad."
+      },
+      "ip": {
+        "title": "3. Propiedad intelectual",
+        "body": "El contenido de este sitio web — textos, diseño, logotipos y código fuente — es propiedad de Rentatoptech, S.L. o se usa bajo licencia, y está protegido por la normativa de propiedad intelectual."
+      },
+      "liability": {
+        "title": "4. Responsabilidad",
+        "body": "Rentatoptech, S.L. no se hace responsable del contenido de sitios externos enlazados desde este sitio web, incluidos los productos listados en la sección de Proyectos, cada uno con sus propios términos y políticas."
+      },
+      "law": {
+        "title": "5. Legislación aplicable",
+        "body": "Estas condiciones se rigen por la legislación española. Cualquier controversia se someterá a los juzgados y tribunales de Madrid, España, salvo que la normativa de consumidores disponga otra cosa con carácter imperativo."
+      }
+    }
+  },
+  "privacyPolicy": {
+    "title": "Política de privacidad",
+    "lastUpdated": "Última actualización",
+    "sections": {
+      "controller": {
+        "title": "1. Responsable del tratamiento",
+        "body": "El responsable del tratamiento de este sitio web es Rentatoptech, S.L., con los datos indicados en nuestro Aviso Legal."
+      },
+      "data": {
+        "title": "2. Qué datos recogemos",
+        "body": "Este sitio web no utiliza analítica, cookies de seguimiento ni formularios que recojan datos personales. Si nos contactas por email o WhatsApp, tratamos los datos personales que nos facilites voluntariamente (nombre, datos de contacto y el contenido de tu mensaje) únicamente para responder a tu consulta."
+      },
+      "purpose": {
+        "title": "3. Finalidad y base legal",
+        "body": "Tratamos estos datos con base en tu consentimiento, otorgado al contactarnos, con el único fin de responder a tu mensaje. No los usamos para ningún otro fin ni los cedemos a terceros salvo obligación legal."
+      },
+      "retention": {
+        "title": "4. Conservación",
+        "body": "Conservamos la correspondencia solo el tiempo necesario para atender tu consulta y su seguimiento, tras lo cual se elimina."
+      },
+      "rights": {
+        "title": "5. Tus derechos",
+        "body": "Puedes ejercer tus derechos de acceso, rectificación, supresión, oposición, limitación y portabilidad escribiendo a"
+      }
+    }
+  }
+}

@@ -80,11 +80,19 @@ export const PROJECTS: Project[] = [
         name: "Villaescorialpark",
         // Spanish lives at the bare root, English at /en.
         url: { en: "https://villaescorialpark.com/en", es: "https://villaescorialpark.com" },
+        linkText: {
+          es: "Casa rural El Escorial 30 pax",
+          en: "El Escorial rural house, 30 guests",
+        },
       },
       {
         name: "Casa Hechizo",
         // Spanish only — no English version of this site exists.
         url: { en: "https://www.casahechizo.com", es: "https://www.casahechizo.com" },
+        linkText: {
+          es: "Casa Rural Segovia 10 pax",
+          en: "Segovia rural house, 10 guests",
+        },
       },
     ],
   },

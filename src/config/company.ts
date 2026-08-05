@@ -19,6 +19,11 @@ export const COMPANY = {
     entry: "Diario M-817620, Asiento 3327",
   },
   domain: "rentatoptech.com",
+  social: {
+    instagram: "https://instagram.com/rentatoptech",
+    youtube: "https://youtube.com/@rentatoptech",
+    linkedin: "https://linkedin.com/company/rentatoptech",
+  },
 } as const;
 
 export function fullAddress(): string {

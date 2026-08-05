@@ -43,11 +43,15 @@ export default function HomePage() {
               <ProjectCard
                 key={project.slug}
                 project={project}
-                url={locale === "es" ? project.url.es : project.url.en}
+                links={project.examples.map((example) => ({
+                  name:
+                    example.linkText?.[locale as "en" | "es"] ??
+                    (project.examples.length > 1 ? example.name : tProjects("visit")),
+                  url: locale === "es" ? example.url.es : example.url.en,
+                }))}
                 category={tProjects(`category.${project.categoryKey}`)}
                 tagline={tProjects(`items.${project.taglineKey}`)}
                 marketLabel={tProjects(`market.${project.market}`)}
-                visitLabel={tProjects("visit")}
               />
             ))}
           </div>

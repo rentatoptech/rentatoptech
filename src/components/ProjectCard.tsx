@@ -3,18 +3,16 @@ import type { Project } from "@/config/projects";
 
 export function ProjectCard({
   project,
-  url,
+  links,
   category,
   tagline,
   marketLabel,
-  visitLabel,
 }: {
   project: Project;
-  url: string;
+  links: { name: string; url: string }[];
   category: string;
   tagline: string;
   marketLabel: string;
-  visitLabel: string;
 }) {
   return (
     <article className="flex flex-col justify-between rounded-2xl border border-border bg-white p-6 shadow-sm transition-shadow hover:shadow-md">
@@ -28,15 +26,20 @@ export function ProjectCard({
         </p>
         <p className="text-sm leading-relaxed text-muted">{tagline}</p>
       </div>
-      <a
-        href={url}
-        target="_blank"
-        rel="noopener"
-        className="mt-6 inline-flex items-center gap-1.5 text-sm font-medium text-primary hover:text-primary-dark"
-      >
-        {visitLabel}
-        <span aria-hidden="true">→</span>
-      </a>
+      <div className="mt-6 flex flex-wrap gap-x-5 gap-y-2">
+        {links.map((link) => (
+          <a
+            key={link.url}
+            href={link.url}
+            target="_blank"
+            rel="noopener"
+            className="inline-flex items-center gap-1.5 text-sm font-medium text-primary hover:text-primary-dark"
+          >
+            {link.name}
+            <span aria-hidden="true">→</span>
+          </a>
+        ))}
+      </div>
     </article>
   );
 }

@@ -44,6 +44,10 @@ export const PROJECTS: Project[] = [
         name: "Amplistay",
         // English lives at the bare root, Spanish at /es.
         url: { en: "https://www.amplistay.com", es: "https://www.amplistay.com/es" },
+        linkText: {
+          en: "Direct bookings and stay extensions",
+          es: "Reservas directas y ampliaciones de estancia",
+        },
       },
     ],
   },

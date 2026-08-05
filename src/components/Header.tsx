@@ -13,15 +13,29 @@ export function Header() {
           <Logo />
         </Link>
         <nav className="flex items-center gap-6">
-          <a href="#projects" className="text-sm font-medium text-foreground hover:text-primary">
+          {/* Plain #hash anchors only work while already on the home page —
+              from /legal-notice or /privacy-policy they just rewrite the
+              URL hash with nothing to scroll to. Routing through "/" first
+              (next-intl's Link, so it stays on the current locale) fixes
+              that and still scrolls smoothly when already home. */}
+          <Link
+            href={{ pathname: "/", hash: "projects" }}
+            className="text-sm font-medium text-foreground hover:text-primary"
+          >
             {t("projects")}
-          </a>
-          <a href="#about" className="text-sm font-medium text-foreground hover:text-primary">
+          </Link>
+          <Link
+            href={{ pathname: "/", hash: "about" }}
+            className="text-sm font-medium text-foreground hover:text-primary"
+          >
             {t("about")}
-          </a>
-          <a href="#contact" className="text-sm font-medium text-foreground hover:text-primary">
+          </Link>
+          <Link
+            href={{ pathname: "/", hash: "contact" }}
+            className="text-sm font-medium text-foreground hover:text-primary"
+          >
             {t("contact")}
-          </a>
+          </Link>
           <LocaleSwitcher />
         </nav>
       </div>

@@ -1,4 +1,5 @@
 export type Market = "spain" | "international";
+export type Platform = "web" | "android";
 
 export interface LocalizedUrl {
   en: string;
@@ -22,9 +23,13 @@ export interface ProjectExample {
 export interface Project {
   slug: string;
   name: string;
+  // Path under /public to the product's own icon. Omitted for
+  // agency-style projects with no single product mark (e.g. Rental Sites).
+  logo?: string;
   categoryKey: string;
   taglineKey: string;
   market: Market;
+  platforms: Platform[];
   // At least one live example. Product projects have exactly one; agency
   // -style projects (e.g. Rental Sites, where the "product" is the
   // service, not a single public URL) can list several client sites.
@@ -36,9 +41,11 @@ export const PROJECTS: Project[] = [
   {
     slug: "amplistay",
     name: "Amplistay",
+    logo: "/logos/amplistay.svg",
     categoryKey: "rentals",
     taglineKey: "amplistay",
     market: "international",
+    platforms: ["web"],
     examples: [
       {
         name: "Amplistay",
@@ -54,9 +61,11 @@ export const PROJECTS: Project[] = [
   {
     slug: "rentalotop",
     name: "Rentalotop",
+    logo: "/logos/rentalotop.svg",
     categoryKey: "rentals",
     taglineKey: "rentalotop",
     market: "international",
+    platforms: ["web", "android"],
     examples: [
       {
         name: "Rentalotop",
@@ -75,6 +84,7 @@ export const PROJECTS: Project[] = [
     categoryKey: "rentals",
     taglineKey: "rentalSites",
     market: "international",
+    platforms: ["web"],
     examples: [
       {
         name: "Villaescorialpark",
@@ -99,9 +109,11 @@ export const PROJECTS: Project[] = [
   {
     slug: "factulink",
     name: "Factulink",
+    logo: "/logos/factulink.svg",
     categoryKey: "fintech",
     taglineKey: "factulink",
     market: "spain",
+    platforms: ["web"],
     examples: [
       {
         name: "Factulink",

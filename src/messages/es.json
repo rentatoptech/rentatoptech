@@ -31,6 +31,10 @@
       "spain": "España",
       "international": "Internacional"
     },
+    "platform": {
+      "web": "Web",
+      "android": "App de Android"
+    },
     "items": {
       "amplistay": "Reservas directas automatizadas, late check-outs y ampliaciones de estancia para anfitriones de alquiler vacacional — sincronizado con iCal, cobrado con Stripe.",
       "rentalotop": "Marketplace de proveedores verificados para pisos turísticos: limpieza, lavandería, ropa de cama, check-in y mantenimiento, con presupuesto gratis.",

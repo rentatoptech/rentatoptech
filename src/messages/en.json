@@ -31,6 +31,10 @@
       "spain": "Spain",
       "international": "International"
     },
+    "platform": {
+      "web": "Web",
+      "android": "Android app"
+    },
     "items": {
       "amplistay": "Automated direct bookings, late check-outs and stay extensions for vacation rental hosts — synced with iCal, paid via Stripe.",
       "rentalotop": "Marketplace of verified service providers for vacation rentals: cleaning, linen, laundry, check-in and maintenance, with free quotes.",

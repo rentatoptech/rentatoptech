@@ -1,5 +1,5 @@
 import { useLocale, useTranslations } from "next-intl";
-import { PROJECTS } from "@/config/projects";
+import { PROJECTS, type Platform } from "@/config/projects";
 import { ProjectCard } from "@/components/ProjectCard";
 import { COMPANY } from "@/config/company";
 
@@ -9,6 +9,11 @@ export default function HomePage() {
   const tAbout = useTranslations("about");
   const tProjects = useTranslations("projects");
   const tContact = useTranslations("contact");
+
+  const platformLabels: Record<Platform, string> = {
+    web: tProjects("platform.web"),
+    android: tProjects("platform.android"),
+  };
 
   return (
     <>
@@ -52,6 +57,7 @@ export default function HomePage() {
                 category={tProjects(`category.${project.categoryKey}`)}
                 tagline={tProjects(`items.${project.taglineKey}`)}
                 marketLabel={tProjects(`market.${project.market}`)}
+                platformLabels={platformLabels}
               />
             ))}
           </div>

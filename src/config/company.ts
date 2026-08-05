@@ -18,7 +18,7 @@ export const COMPANY = {
     office: "Registro Mercantil de Madrid",
     entry: "Diario M-817620, Asiento 3327",
   },
-  domain: "rentatoptech.com",
+  domain: "www.rentatoptech.com",
   social: {
     instagram: "https://instagram.com/rentatoptech",
     youtube: "https://youtube.com/@rentatoptech",

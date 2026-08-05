@@ -95,6 +95,7 @@ export const PROJECTS: Project[] = [
         name: "Factulink",
         // Spanish only — no English version of the product exists.
         url: { en: "https://factulink.app", es: "https://factulink.app" },
+        linkText: { es: "Stripe a Holded", en: "Stripe to Holded" },
       },
     ],
   },
